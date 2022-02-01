@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title and Icon -->
+  <title>Random Array Generator</title>
+  <link rel="icon" href="images/favicon.ico">
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="title">Random Array Generator</h1>
+  <div class="customisable-input">
+    <div class="length-input">
+      <p>Length</p>
+      <input type="text" value="0" id="length">
+    </div>
+    <div class="range-input">
+      <p>Range (Exclusive)</p>
+      <input type="text" value="0" id="range">
+    </div>
+  </div>
+  <button id="submit">Submit</button>
+  <button class="copy">Copy Array</button>
+  <div class="output-field">
+    <p id="output-paragraph">
+      Your array will be outputted here...
+    </p>
+  </div>
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- Regular Scripts -->
+  <script src="index.js"></script>
+</body>
+
+</html>
